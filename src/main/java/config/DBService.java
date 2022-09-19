@@ -10,7 +10,7 @@ public class DBService {
   private static final String DBURL_SQLServer =
       "jdbc:sqlserver://" + host + ":1433;databaseName=wulitest";
   public static final String USERID_SQLServer = "sa";
-  public static final String PSWD_SQLServer = "117117";
+  public static final String PSWD_SQLServer = "";
 
   public static final String nameMs = "java:comp/env/jdbc/BookDataMsSQL";
   public static final String nameMy = "java:comp/env/jdbc/wulitest";
@@ -30,7 +30,7 @@ public class DBService {
           + host
           + "/jspdb?useUnicode=yes&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Taipei&allowPublicKeyRetrieval=true";
   public static final String USERID_MySQL = "root";
-  public static final String PSWD_MySQL = "117117";
+  public static final String PSWD_MySQL = "";
 
   private static final String DROP_Member_MySQL = "DROP Table IF EXISTS Member ";
   private static final String DROP_Member_SQLServer =
